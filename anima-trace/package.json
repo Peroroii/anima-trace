@@ -1,5 +1,5 @@
 {
-  "name": "@af199/anima-trace",
+  "name": "anima-trace",
   "version": "1.0.0",
   "description": "Self-verifying trace format for deterministic ANIMA runs. Record a run, and anyone can reproduce it byte-for-byte and prove it wasn't tampered with. Executable reproducibility for AI-safety auditing.",
   "main": "trace.js",
@@ -9,7 +9,6 @@
   "files": [
     "trace.js",
     "cli.js",
-    "src/",
     "SCHEMA.md",
     "example_trace.json"
   ],
@@ -46,13 +45,7 @@
   "devDependencies": {
     "jest": "^30.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Peroroii/anima-trace.git"
-  },
-  "author": "Ariel Fernández",
-  "bugs": {
-    "url": "https://github.com/Peroroii/anima-trace/issues"
-  },
-  "homepage": "https://github.com/Peroroii/anima-trace#readme"
+  "dependencies": {
+    "@af199/anima-core": "^0.1.0"
+  }
 }
