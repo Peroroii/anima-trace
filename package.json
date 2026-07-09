@@ -13,7 +13,7 @@
     "example_trace.json"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "test": "node node_modules/jest/bin/jest.js",
     "test:coverage": "jest --coverage",
     "verify": "node cli.js example_trace.json"
   },
