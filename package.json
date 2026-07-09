@@ -9,7 +9,6 @@
   "files": [
     "trace.js",
     "cli.js",
-    "src/",
     "SCHEMA.md",
     "example_trace.json"
   ],
@@ -55,4 +54,4 @@
     "url": "https://github.com/Peroroii/anima-trace/issues"
   },
   "homepage": "https://github.com/Peroroii/anima-trace#readme"
-}
+,"dependencies": { "@af199/anima-core": "^0.1.0" }}

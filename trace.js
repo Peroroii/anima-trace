@@ -1,7 +1,7 @@
 'use strict';
 // ANIMA Trace Format v1 — record + verify deterministic runs.
 const crypto = require('crypto');
-const { Engine } = require('./src/engine');
+const { Engine } = require('@af199/anima-core');
 
 const TRACE_VERSION = '1.0';
 const ENGINE_VERSION = '0.1.0';
