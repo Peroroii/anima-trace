@@ -13,8 +13,8 @@
     "example_trace.json"
   ],
   "scripts": {
-    "test": "test": "node node_modules/jest/bin/jest.js",
-    "test:coverage": "jest --coverage",
+    "test": "node node_modules/jest/bin/jest.js",
+    "test:coverage": "node node_modules/jest/bin/jest.js --coverage",
     "verify": "node cli.js example_trace.json"
   },
   "jest": {
@@ -45,13 +45,7 @@
   "devDependencies": {
     "jest": "^30.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Peroroii/anima-trace.git"
-  },
-  "author": "Ariel Fernández",
-  "bugs": {
-    "url": "https://github.com/Peroroii/anima-trace/issues"
-  },
-  "homepage": "https://github.com/Peroroii/anima-trace#readme"
-,"dependencies": { "@af199/anima-core": "^0.1.0" }}
+  "dependencies": {
+    "@af199/anima-core": "^0.1.0"
+  }
+}
